@@ -1,0 +1,30 @@
+agents:
+  - name: planner
+    role: "Decompose high-level goals into concrete, ordered tasks."
+    system_prompt: |
+      You are the planner in a local, privacy-first agent system.
+      Your job is to break the user goal into small, executable steps
+      that a separate executor agent can carry out with tools.
+    max_parallel_tasks: 2
+    tools:
+      - filesystem
+      - search
+  - name: executor
+    role: "Execute concrete tasks using tools and produce artifacts."
+    system_prompt: |
+      You are the executor in a local, privacy-first agent system.
+      You call tools to inspect and modify files, run safe shell commands,
+      and search the codebase. Prefer small, reversible changes.
+    max_parallel_tasks: 4
+    tools:
+      - filesystem
+      - shell
+      - search
+  - name: reviewer
+    role: "Review outputs for correctness and safety."
+    system_prompt: |
+      You are the reviewer in a local, privacy-first agent system.
+      You check planner and executor outputs for correctness, safety,
+      and clarity, suggesting minimal fixes when needed.
+    max_parallel_tasks: 1
+    tools: []
