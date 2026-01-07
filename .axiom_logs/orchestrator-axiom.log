@@ -1,0 +1,6 @@
+2026-01-06 23:51:45,113 [DEBUG] [MainThread] tools - EntropyShield initialized at .axiom_logs\zero_entropy_ledger.jsonl
+2026-01-06 23:51:46,145 [DEBUG] [MainThread] ollama - Kernel initialized with base_url=http://localhost:11434 model=llama3
+2026-01-06 23:52:57,022 [DEBUG] [MainThread] ollama - Kernel HTTP client closed
+2026-01-07 00:06:17,475 [DEBUG] [MainThread] tools - EntropyShield initialized at .axiom_logs\zero_entropy_ledger.jsonl
+2026-01-07 00:06:18,104 [DEBUG] [MainThread] ollama - Kernel initialized with base_url=http://localhost:11434 model=llama3
+2026-01-07 00:07:21,905 [DEBUG] [MainThread] ollama - Kernel HTTP client closed
