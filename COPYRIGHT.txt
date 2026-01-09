@@ -1,0 +1,12 @@
+================================================================================
+COPYRIGHT & INTELLECTUAL PROPERTY
+================================================================================
+
+Copyright © 2024-2026 Axiom Hive & Alexis Adams
+All Rights Reserved.
+
+This repository and all content are proprietary to Axiom Hive.
+Unauthorized use, reproduction, or distribution is prohibited.
+
+For licensing or permission requests: devdollzai@gmail.com
+================================================================================
